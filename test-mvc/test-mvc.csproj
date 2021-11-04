@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>test_mvc</RootNamespace>
+  </PropertyGroup>
+ 
+  <ItemGroup>
+    <Reference Include="test-dll">
+      <HintPath>dll\test-dll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
